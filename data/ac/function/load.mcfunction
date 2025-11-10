@@ -1,20 +1,37 @@
-# 加载提示
+#### 数据包初始化
+## 加载提示
 tellraw @a {text:"ACPack 数据包已加载",color:"green"}
-# 计分板增添
-# 用个通用的记分板吧
+
+### 调试系统设置
+## 创建debugger队伍用于日志显示
+team remove debugger
+team add debugger
+team modify debugger color dark_purple
+team modify debugger seeFriendlyInvisibles false
+team modify debugger collisionRule never
+## 日志: 数据包初始化完成
+tellraw @a[team=debugger] [{text:"[ACPack_DEBUG] ",color:"dark_purple"},{text:"数据包初始化完成",color:"white"}]
+
+### 记分板系统设置
+#### 基础记分板
+# 用个通用的记分板
 scoreboard objectives remove int
 scoreboard objectives add int dummy
+
+#### 随机数记分板
 #scoreboard objectives remove tips_random
 scoreboard objectives add last_random dummy
 scoreboard players set #random last_random 0
 
-# trigger没有了也是刷新
+#### 触发器记分板
+## trigger没有了也是刷新
 scoreboard objectives remove trigger
 scoreboard objectives add trigger trigger
 # 这里加个判定分数
 scoreboard objectives add trigger.int dummy
 
-# tag刷新 写复杂了，用不上
+### 计时器设置
+## tag刷新 写复杂了，用不上
 # 目前的函数不需要单独激活
 # tick 有专门的标签，但我还是选择用计时器了，因为你的计时器挺多的
 # 这里只启动了计时器，这里可以不要，或者直接function也能启动，即我后面写的
