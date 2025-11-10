@@ -1,3 +1,5 @@
 # ACPack
-A datapack for minecraft to change some recipe in order to let the game better!
-你可以随意学习此文件，但如果使用需要提及本文件作者
+A datapack for Minecraft:Java Edition, added and tweaked some features to enhance game experience.
+The datapack is using by AreoCraftMC Server, and is developed by misividkoukou and AreoCraft Developers.
+## Features Introduction
+**Abstract: The datapack adds some recipes, changes loot tables and adds "Tips for server" feature.**
