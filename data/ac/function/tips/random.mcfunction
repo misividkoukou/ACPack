@@ -2,9 +2,9 @@
 ## 函数说明
 #### 改了下选择器，因为可以在调用此函数前选择好
 
-## 日志: 开始执行随机小贴士显示
- tellraw @a[team=debugger] [{text:"[ACPack_DEBUG] ",color:"dark_purple"},{text:"tips/random.mcfunction - 开始执行随机小贴士显示",color:"white"}]
-## 日志: 当前随机数
+## 日志: 开始执行随机小贴士显示（移至high_freq_log队伍）
+ tellraw @a[team=high_freq_log] [{text:"[ACPack_HIGH_FREQ] ",color:"blue"},{text:"tips/random.mcfunction - 开始执行随机小贴士显示",color:"white"}]
+## 日志: 当前随机数（重要信息，保留在debugger队伍）
  tellraw @a[team=debugger] [{text:"[ACPack_DEBUG] ",color:"dark_purple"},{text:"tips/random.mcfunction - 当前随机数: ",color:"white"},{score:{name:"#random",objective:"int"},color:"yellow"}]
 
 ### 显示逻辑

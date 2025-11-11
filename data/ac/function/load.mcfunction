@@ -3,14 +3,22 @@
 tellraw @a {text:"ACPack 数据包已加载",color:"green"}
 
 ### 调试系统设置
-## 创建debugger队伍用于日志显示
+## 创建debugger队伍用于普通日志显示
 team remove debugger
 team add debugger
 team modify debugger color dark_purple
 team modify debugger seeFriendlyInvisibles false
 team modify debugger collisionRule never
+
+## 创建high_freq_log队伍用于高频日志显示
+team remove high_freq_log
+team add high_freq_log
+team modify high_freq_log color blue
+team modify high_freq_log seeFriendlyInvisibles false
+team modify high_freq_log collisionRule never
+
 ## 日志: 数据包初始化完成
-tellraw @a[team=debugger] [{text:"[ACPack_DEBUG] ",color:"dark_purple"},{text:"数据包初始化完成",color:"white"}]
+tellraw @a[team=debugger] [{text:"[ACPack_DEBUG] ",color:"dark_purple"},{text:"数据包初始化完成",color:"white"},{text:" | 使用"}, {text:"/team join debugger", color:"aqua"}, {text:"加入调试队伍，使用"}, {text:"/team join high_freq_log", color:"aqua"}, {text:"加入高频日志队伍"}]
 
 ### 记分板系统设置
 #### 基础记分板

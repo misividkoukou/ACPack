@@ -1,6 +1,6 @@
 ### 控制面板界面函数
 ## 状态设置
-# 日志: 开始执行控制面板显示
+# 日志: 开始执行控制面板显示（重要事件，保留在debugger队伍）
  tellraw @a[team=debugger] [{text:"[ACPack_DEBUG] ",color:"dark_purple"},{text:"tips/bar.mcfunction - 开始显示控制面板",color:"white"}]
 
 # 指明完就去掉，避免反复使用
@@ -8,12 +8,12 @@ scoreboard players set @s trigger.int 1
 scoreboard players set @s trigger.int 2
 # 重置trigger分数，防止无限循环显示控制面板
 scoreboard players reset @s trigger
-# 日志: 已重置trigger分数
- tellraw @a[team=debugger] [{text:"[ACPack_DEBUG] ",color:"dark_purple"},{text:"tips/bar.mcfunction - 已重置trigger分数，防止无限循环",color:"green"}]
+# 日志: 已重置trigger分数（移至high_freq_log队伍）
+ tellraw @a[team=high_freq_log] [{text:"[ACPack_HIGH_FREQ] ",color:"blue"},{text:"tips/bar.mcfunction - 已重置trigger分数，防止无限循环",color:"green"}]
 
 # 新玩家首次进入后自动打开tips系统
 scoreboard players set @s trigger 2
-# 日志: 已设置trigger值为2，将自动打开tips
+# 日志: 已设置trigger值为2，将自动打开tips（重要事件，保留在debugger队伍）
  tellraw @a[team=debugger] [{text:"[ACPack_DEBUG] ",color:"dark_purple"},{text:"tips/bar.mcfunction - 已设置trigger值为2，将自动打开tips系统",color:"white"}]
 
 ### 界面设计注释
