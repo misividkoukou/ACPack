@@ -1,1 +1,1 @@
-execute as @a[scores={stats.traded_with_villager=..1}] run function statistics:traded_with_villager/traded_with_villager_merge
+execute as @a[scores={stats.traded_with_villager=1..}] run function statistics:traded_with_villager/traded_with_villager_merge
