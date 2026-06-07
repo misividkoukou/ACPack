@@ -28,7 +28,12 @@ scoreboard objectives add stats.traded_with_villager minecraft.custom:traded_wit
 scoreboard objectives add stats.player_traded_with_villager dummy {"text":"村民交易次数","color":"#33ffad","bold":true}
 
 scoreboard players set #CONSTANT_hour stats.gametime 3600
+scoreboard players set #CONSTANT_20 stats.gametime 20
 scoreboard objectives add stats.player_gametime dummy {"text":"游戏时长","color":"gold","bold":true}
+
+# 录屏模式专用计分板 (显示固定服务器信息)
+scoreboard objectives add stats.display_recording dummy {"text":"Areocraft Server","color":"aqua","bold":true}
+
 # 计时器
 schedule function statistics:1tick 1t replace
 schedule function statistics:10sec 1t replace

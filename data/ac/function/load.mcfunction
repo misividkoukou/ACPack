@@ -16,6 +16,9 @@ scoreboard objectives add trigger.int dummy
 scoreboard objectives remove trigger
 scoreboard objectives add trigger trigger
 
+# 计分板显示模式: 0=关闭, 1=轮播, 2-7=固定项, 8=录屏
+scoreboard objectives add stats.display_mode dummy
+
 #### 计时器启用 ####
 schedule function ac:ticks/300sec 1t replace
 schedule function ac:ticks/1tick 1t replace

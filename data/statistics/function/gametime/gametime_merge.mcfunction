@@ -1,6 +1,13 @@
+# 将玩家的游戏时长(刻)转换为小时并累加到 stats.player_gametime
+# stats.gametime 是 minecraft.custom:play_time，单位为刻 (1秒 = 20刻)
+# 1小时 = 3600秒 = 72000刻
+
+# 先将当前 play_time 刻数转换为小时 (除以 72000)
 scoreboard players operation @s stats.gametime /= #CONSTANT_hour stats.gametime
+scoreboard players operation @s stats.gametime /= #CONSTANT_20 stats.gametime
+
+# 累加到玩家游戏时长计分板
 scoreboard players operation @s stats.player_gametime += @s stats.gametime
 
+# 重置 play_time 统计，以便下次计算增量
 scoreboard players set @s stats.gametime 0
-## 处理还有问题，这个模块暂时没有完善 
-## 或许后面会换个实现方法
