@@ -1,0 +1,1 @@
+execute as @a run function statistics:gametime/gametime_merge

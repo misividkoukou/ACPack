@@ -1,0 +1,1 @@
+execute if score #sweeper sweeper_countdown matches -1 run scoreboard players set #sweeper sweeper_countdown 15
