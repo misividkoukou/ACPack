@@ -23,4 +23,5 @@ scoreboard objectives add stats.display_mode dummy
 #### 计时器启用 ####
 schedule function ac:ticks/300sec 1t replace
 schedule function ac:ticks/1tick 1t replace
+
 schedule function ac:ticks/1sec 1t replace
