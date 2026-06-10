@@ -10,4 +10,5 @@ execute if score @s trigger matches 3 run function ac:tips/_off
 execute if score @s trigger matches 4 run function ac:sweeper/break
 execute if score @s trigger matches 5 run function ac:sweeper/announce
 execute if score @s trigger matches 6 run function ac:display/settings
+execute if score @s trigger matches 7 run function ac:kill/kill
 execute if score @s trigger matches 10..18 run function ac:display/set_mode
