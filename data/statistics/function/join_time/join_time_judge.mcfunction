@@ -1,0 +1,1 @@
+execute as @a[scores={stats.join_time=1..}] run function statistics:join_time/join_time_merge

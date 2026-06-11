@@ -7,4 +7,4 @@ execute as @a[scores={stats.display_mode=1}] run function statistics:display/dis
 # 固定显示/关闭/录屏模式: 各自应用自己的设置
 execute as @a[scores={stats.display_mode=0}] run function statistics:display/display_mode
 
-execute as @a[scores={stats.display_mode=2..8}] run function statistics:display/display_mode
+execute as @a[scores={stats.display_mode=2..9}] run function statistics:display/display_mode

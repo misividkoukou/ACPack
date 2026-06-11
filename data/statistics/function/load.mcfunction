@@ -31,6 +31,10 @@ scoreboard players set #CONSTANT_hour stats.gametime 3600
 scoreboard players set #CONSTANT_20 stats.gametime 20
 scoreboard objectives add stats.player_gametime dummy {"text":"游戏时长(h)","color":"gold","bold":true}
 
+scoreboard objectives add stats.join_time minecraft.custom:leave_game "退出次数"
+scoreboard objectives add stats.join_time dummy {"text":"退出次数","color":"aqua","bold":true}
+scoreboard objectives add stats.total_join_time dummy {"text":"加入次数","color":"aqua","bold":true}
+
 # 录屏模式专用计分板 (显示固定服务器信息)
 scoreboard objectives add stats.display_recording dummy {"text":"Areocraft Server","color":"aqua","bold":true}
 

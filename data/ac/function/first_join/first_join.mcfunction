@@ -1,6 +1,7 @@
 tag @s add tips_on
 # 新玩家默认使用普通轮播模式
 scoreboard players set @s stats.display_mode 1
+scoreboard players set @s stats.total_join_time 1
 tellraw @s [{text:" "}]
 tellraw @s [{text:"欢迎您来到Areocraft服务器,这个教程将会让你更加了解服务器,但可惜的是",color:green},{text:"\n"},{text:"koukou咕了 :(",color:"gold"}]
 tellraw @s {text:" "}
