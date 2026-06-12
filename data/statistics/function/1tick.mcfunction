@@ -5,3 +5,4 @@ function statistics:death/death_judge
 function statistics:open_container/open_container_judge
 function statistics:traded_with_villager/traded_with_villager_judge
 function statistics:gametime/gametime_judge
+function statistics:join_time/join_time_judge

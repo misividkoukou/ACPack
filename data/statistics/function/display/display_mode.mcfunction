@@ -20,5 +20,9 @@ execute if score @s stats.display_mode matches 6 run scoreboard objectives setdi
 
 execute if score @s stats.display_mode matches 7 run scoreboard objectives setdisplay sidebar stats.player_gametime
 
+execute if score @s stats.display_mode matches 9 run scoreboard objectives setdisplay sidebar stats.total_join_time
+
 # 录屏模式: 显示固定不变的服务器信息文本，不再显示计数数据
 execute if score @s stats.display_mode matches 8 run scoreboard objectives setdisplay sidebar stats.display_recording
+
+
