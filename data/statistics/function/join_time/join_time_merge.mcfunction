@@ -1,4 +1,3 @@
-execute as @s run scoreboard players operation total stats.total_join_time += @s stats.join_time
 execute as @s run scoreboard players operation @s stats.total_join_time += @s stats.join_time
 scoreboard players reset @s stats.join_time
 # 加载告知
