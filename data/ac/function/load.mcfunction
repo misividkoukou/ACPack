@@ -1,5 +1,5 @@
 #### 加载告知 ####
-function ac:info
+execute as @a run function ac:info
 #### 计分板 ####
 # sweeper
 scoreboard objectives add sweeper_countdown dummy
