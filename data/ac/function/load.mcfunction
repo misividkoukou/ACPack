@@ -1,5 +1,5 @@
 #### 加载告知 ####
-function ac:info
+execute as @a run function ac:info
 #### 计分板 ####
 # sweeper
 scoreboard objectives add sweeper_countdown dummy
@@ -14,6 +14,11 @@ scoreboard objectives add trigger.int dummy
 
 scoreboard objectives remove trigger
 scoreboard objectives add trigger trigger
+# particle trigger
+scoreboard objectives add trigger.particle.int dummy
+
+scoreboard objectives remove trigger.particle
+scoreboard objectives add trigger.particle trigger
 
 # 计分板显示模式: 0=关闭, 1=轮播, 2-7,9-35=固定项, 8=录屏
 scoreboard objectives add stats.display_mode dummy
@@ -37,5 +42,5 @@ team modify special suffix {text:"❤",color:"red"}
 #### 计时器启用 ####
 schedule function ac:ticks/300sec 1t replace
 schedule function ac:ticks/1tick 1t replace
-
+schedule function ac:ticks/2tick 2t replace
 schedule function ac:ticks/1sec 1t replace
