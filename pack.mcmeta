@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "Datapack designed for Areocraft Server, Version 1.0.7.5, Targeting MC 1.21.11.",
+        "description": "Datapack designed for Areocraft Server, Version 1.0.8, Targeting MC 26.2.",
         "min_format":[88, 0],
         "max_format":[107, 1]
     }
