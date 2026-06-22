@@ -10,4 +10,4 @@ scoreboard players operation @s stats.gametime /= #CONSTANT_hour stats.gametime
 scoreboard players operation @s stats.player_gametime += @s stats.gametime
 
 # 重置 play_time 统计，以便下次计算增量
-scoreboard players set @s stats.gametime 0
+scoreboard players set @s stats.gametime 61
