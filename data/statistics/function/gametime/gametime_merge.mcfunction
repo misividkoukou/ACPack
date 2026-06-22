@@ -11,3 +11,6 @@ scoreboard players operation @s stats.player_gametime += @s stats.gametime
 
 # 重置 play_time 统计，以便下次计算增量
 scoreboard players set @s stats.gametime 61
+
+# 计时偏差3秒/小时，在误差累积至1h时修正
+execute if score @s stats.player_gametime matches 1200..1201 run scoreboard players remove @s stats.player_gametime 1
