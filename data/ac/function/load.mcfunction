@@ -9,6 +9,9 @@ scoreboard objectives add stats.gametime minecraft.custom:play_time
 # random的菜
 scoreboard objectives remove tips_random
 scoreboard objectives add tips_random dummy
+
+scoreboard objectives add first_join dummy "首次加入"
+
 # 仅用于trigger
 scoreboard objectives add trigger.int dummy
 
