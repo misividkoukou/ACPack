@@ -1,2 +1,3 @@
 schedule function statistics:10sec 10s replace
 function statistics:display/random
+function statistics:fake_player_remove/fake_player_remove
