@@ -35,6 +35,8 @@ scoreboard objectives add stats.join_time minecraft.custom:leave_game "退出次
 scoreboard objectives add stats.total_join_time dummy {"text":"加入次数","color":"aqua","bold":true}
 
 scoreboard objectives add stats.placed_count dummy {text:"放置数量",color:"#63dade"}
+advancement revoke @s only statistics:place
+
 # 录屏模式专用计分板 (显示固定服务器信息)
 scoreboard objectives add stats.display_recording dummy {"text":"Areocraft Server","color":"aqua","bold":true}
 
