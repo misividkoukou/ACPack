@@ -6,3 +6,4 @@ scoreboard players reset @a[team=bots] stats.player_traded_with_villager
 scoreboard players reset @a[team=bots] stats.player_gametime
 scoreboard players reset @a[team=bots] stats.total_join_time
 scoreboard players reset @a[team=bots] stats.player_hoe
+scoreboard players reset @a[team=bots] stats.placed_count

@@ -1,0 +1,11 @@
+{
+    "criteria": {
+        "place_block": {
+            "trigger": "minecraft:placed_block",
+            "conditions": {}
+        }
+    },
+    "rewards": {
+        "function": "statistics:block_place/place"
+    }
+}

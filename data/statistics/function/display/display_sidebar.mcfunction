@@ -5,3 +5,4 @@ execute if score #stats_display stats.display matches 4 run scoreboard objective
 execute if score #stats_display stats.display matches 5 run scoreboard objectives setdisplay sidebar stats.player_traded_with_villager
 execute if score #stats_display stats.display matches 6 run scoreboard objectives setdisplay sidebar stats.player_gametime
 execute if score #stats_display stats.display matches 7 run scoreboard objectives setdisplay sidebar stats.total_join_time
+execute if score #stats_display stats.display matches 8 run scoreboard objectives setdisplay sidebar stats.placed_count
