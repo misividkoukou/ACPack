@@ -13,4 +13,4 @@ execute if score @s trigger matches 5 run function ac:sweeper/announce
 execute if score @s trigger matches 6 run function ac:display/settings
 execute if score @s trigger matches 7 run function ac:kill/kill
 execute if score @s trigger matches 8 run function ac:particle/particle_bar
-execute if score @s trigger matches 10..19 run function ac:display/set_mode
+execute if score @s trigger matches 10..20 run function ac:display/set_mode

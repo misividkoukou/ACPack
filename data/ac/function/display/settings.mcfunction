@@ -10,6 +10,6 @@ tellraw @s [{text:"[固定:死亡量]",bold:true,color:aqua,click_event:{action:
 tellraw @s [{text:"[固定:锄头量]",bold:true,color:aqua,click_event:{action:"run_command",command:"trigger trigger set 14"},hover_event:{action:"show_text",value:"固定显示锄头使用量"}},{text:"   "},{text:"[固定:容器]",bold:true,color:aqua,click_event:{action:"run_command",command:"trigger trigger set 15"},hover_event:{action:"show_text",value:"固定显示容器打开次数"}}]
 tellraw @s [{text:"[固定:交易]",bold:true,color:aqua,click_event:{action:"run_command",command:"trigger trigger set 16"},hover_event:{action:"show_text",value:"固定显示村民交易次数"}},{text:"   "},{text:"[固定:时长]",bold:true,color:aqua,click_event:{action:"run_command",command:"trigger trigger set 17"},hover_event:{action:"show_text",value:"固定显示游戏时长"}}]
 tellraw @s [{text:"[固定:加入次数]",bold:true,color:aqua,click_event:{action:"run_command",command:"trigger trigger set 19"},hover_event:{action:"show_text",value:"固定显示加入次数"}}]
-tellraw @s [{text:"[固定:放置次数]",bold:true,color:aqua,click_event:{action:"run_command",command:"trigger trigger set 20"},hover_event:{action:"show_text",value:"固定显示加入次数"}}]
+tellraw @s [{text:"[固定:放置次数]",bold:true,color:aqua,click_event:{action:"run_command",command:"trigger trigger set 20"},hover_event:{action:"show_text",value:"固定显示放置次数"}}]
 tellraw @s {text:"[录屏模式]",bold:true,color:light_purple,click_event:{action:"run_command",command:"trigger trigger set 18"},hover_event:{action:"show_text",value:"录屏模式:显示固定服务器信息"}}
 tellraw @s {text:"-----------------------------------------------------",color:"red"}
