@@ -1,4 +1,7 @@
 scoreboard players set #sweeper sweeper_countdown -1
 playsound entity.villager.ambient
-kill @e[type=item]
+#### 清扫掉落物,但保留载具类物品 ####
+#### 每项 nbt=!{...} 都是一个独立谓词,新增木材版本时请补齐 _boat 与 _chest_boat 两个 ID ####
+#### 覆盖至 26.3:11 种船 = 10 种木材/poplar + bamboo,故共 10 组 _boat/_chest_boat + bamboo 的 _raft/_chest_raft = 22 项 ####
+kill @e[type=minecraft:item,nbt=!{Item:{id:"minecraft:minecart"}},nbt=!{Item:{id:"minecraft:tnt_minecart"}},nbt=!{Item:{id:"minecraft:hopper_minecart"}},nbt=!{Item:{id:"minecraft:command_block_minecart"}},nbt=!{Item:{id:"minecraft:furnace_minecart"}},nbt=!{Item:{id:"minecraft:spawner_minecart"}},nbt=!{Item:{id:"minecraft:oak_boat"}},nbt=!{Item:{id:"minecraft:oak_chest_boat"}},nbt=!{Item:{id:"minecraft:spruce_boat"}},nbt=!{Item:{id:"minecraft:spruce_chest_boat"}},nbt=!{Item:{id:"minecraft:birch_boat"}},nbt=!{Item:{id:"minecraft:birch_chest_boat"}},nbt=!{Item:{id:"minecraft:jungle_boat"}},nbt=!{Item:{id:"minecraft:jungle_chest_boat"}},nbt=!{Item:{id:"minecraft:acacia_boat"}},nbt=!{Item:{id:"minecraft:acacia_chest_boat"}},nbt=!{Item:{id:"minecraft:dark_oak_boat"}},nbt=!{Item:{id:"minecraft:dark_oak_chest_boat"}},nbt=!{Item:{id:"minecraft:mangrove_boat"}},nbt=!{Item:{id:"minecraft:mangrove_chest_boat"}},nbt=!{Item:{id:"minecraft:cherry_boat"}},nbt=!{Item:{id:"minecraft:cherry_chest_boat"}},nbt=!{Item:{id:"minecraft:pale_oak_boat"}},nbt=!{Item:{id:"minecraft:pale_oak_chest_boat"}},nbt=!{Item:{id:"minecraft:poplar_boat"}},nbt=!{Item:{id:"minecraft:poplar_chest_boat"}},nbt=!{Item:{id:"minecraft:bamboo_raft"}},nbt=!{Item:{id:"minecraft:bamboo_chest_raft"}}]
 tellraw @a {text:"[扫地机] 扫地鸡已完成任务,打道回府啦 :）",color: "light_purple"}
