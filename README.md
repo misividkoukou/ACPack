@@ -1,6 +1,6 @@
 # ACPack
 
-![version](https://img.shields.io/badge/v1.0.8.3-success)
+![version](https://img.shields.io/badge/v1.0.8.4-success)
 ![mcver](https://img.shields.io/badge/minecraft-26.3-blue)
 
 [![License](https://img.shields.io/badge/LICENSE-MPL%202.0-blueviolet?style=for-the-badge)](https://www.mozilla.org/en-US/MPL/2.0/)
@@ -21,9 +21,11 @@ Made by AreoCraft Developers!
 * 战利品表修改
 * ...
 
+关于本数据包修改的部分机制，可见[AreoCraft Docs](https://docsareocraft.zhangrx.top/zh/%E5%B8%AE%E5%8A%A9/%E9%99%84%E5%8A%A0%E5%86%85%E5%AE%B9)
+
 ## 适配与维护情况
 
-当前适配：最低`1.21.9`，目标`26.3`.
+当前适配Minecraft版本：最低`26.3`，目标`26.3`.
 
 维护者：AreoCraft技术开发组
 
@@ -32,7 +34,7 @@ Made by AreoCraft Developers!
 ## 贡献
 
 * 点子贡献：欢迎任何人在Issue/Discussion面板中为项目提出意见！
-* 代码贡献：你可以Fork本仓库并进行修改。但如果希望将自己的内容合并进入主线，则你至少需要是Minecraft服务器 [AreoCraft](https://areocraft.zhangrx.top/)  的一名玩家。
+* 代码贡献：在遵守仓库Lisense的情况下，你可以Fork本仓库并进行修改。但如果希望将自己的内容合并进入主线，则你至少需要是Minecraft服务器 [AreoCraft](https://areocraft.zhangrx.top/)  的一名玩家。
 
 ## 开源许可
 
