@@ -49,7 +49,7 @@ execute if score @s trigger matches 19 run tellraw @s {"text":"计分板显示�
 
 # 固定：放置次数
 execute if score @s trigger matches 20 run scoreboard players set @s stats.display_mode 10
-execute if score @s trigger matches 19 run scoreboard players set @s trigger.int 20
+execute if score @s trigger matches 20 run scoreboard players set @s trigger.int 20
 execute if score @s trigger matches 20 run tellraw @s {"text":"计分板显示已固定为: 放置次数","color":"aqua"}
 
 # 录屏模式

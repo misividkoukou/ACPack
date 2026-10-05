@@ -1,7 +1,7 @@
 # ACPack
 
-![version](https://img.shields.io/badge/v1.0.8-success)
-![mcver](https://img.shields.io/badge/minecraft-26.2-blue)
+![version](https://img.shields.io/badge/v1.0.8.3-success)
+![mcver](https://img.shields.io/badge/minecraft-26.3-blue)
 
 [![License](https://img.shields.io/badge/LICENSE-MPL%202.0-blueviolet?style=for-the-badge)](https://www.mozilla.org/en-US/MPL/2.0/)
 ![Language](https://img.shields.io/badge/Language-mcfunction-red?style=for-the-badge)
