@@ -74,8 +74,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 36.0,
-              "min": 10.0
+              "max": 36,
+              "min": 10
             }
           },
           "name": "minecraft:iron_nugget",
@@ -88,8 +88,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 24.0,
-              "min": 12.0
+              "max": 24,
+              "min": 12
             }
           },
           "name": "minecraft:breeze_rod",
@@ -116,8 +116,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 4.0,
-              "min": 2.0
+              "max": 4,
+              "min": 2
             }
           },
           "name": "minecraft:ender_pearl",
@@ -128,7 +128,7 @@
           "modifier": {
             "type": "minecraft:set_count",
             "add": false,
-            "count": 1.0
+            "count": 1
           },
           "name": "minecraft:dried_ghast",
           "weight": 10
@@ -140,8 +140,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 9.0,
-              "min": 3.0
+              "max": 9,
+              "min": 3
             }
           },
           "name": "minecraft:string",
@@ -154,8 +154,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 12.0,
-              "min": 5.0
+              "max": 12,
+              "min": 5
             }
           },
           "name": "minecraft:quartz",
@@ -173,8 +173,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 3.0,
-              "min": 1.0
+              "max": 3,
+              "min": 1
             }
           },
           "name": "minecraft:crying_obsidian",
@@ -192,8 +192,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 4.0,
-              "min": 2.0
+              "max": 4,
+              "min": 2
             }
           },
           "name": "minecraft:leather",
@@ -206,8 +206,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 8.0,
-              "min": 2.0
+              "max": 8,
+              "min": 2
             }
           },
           "name": "minecraft:soul_sand",
@@ -220,8 +220,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 8.0,
-              "min": 2.0
+              "max": 8,
+              "min": 2
             }
           },
           "name": "minecraft:nether_brick",
@@ -234,8 +234,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 12.0,
-              "min": 6.0
+              "max": 12,
+              "min": 6
             }
           },
           "name": "minecraft:spectral_arrow",
@@ -248,8 +248,8 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 16.0,
-              "min": 8.0
+              "max": 16,
+              "min": 8
             }
           },
           "name": "minecraft:gravel",
@@ -262,15 +262,15 @@
             "add": false,
             "count": {
               "type": "minecraft:uniform",
-              "max": 16.0,
-              "min": 8.0
+              "max": 16,
+              "min": 8
             }
           },
           "name": "minecraft:blackstone",
           "weight": 40
         }
       ],
-      "rolls": 1.0
+      "rolls": 1
     }
   ],
   "random_sequence": "minecraft:gameplay/piglin_bartering"
