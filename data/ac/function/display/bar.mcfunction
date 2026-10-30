@@ -18,7 +18,8 @@ tellraw @s [{text:"[打开Tips]",bold:true,"click_event":{action:"run_command",c
 tellraw @s [{text:"[计分板显示设置]",bold:true,color:aqua,click_event:{action:"run_command",command:"trigger trigger set 6"},hover_event:{action:"show_text",value:"打开计分板显示设置菜单"}},{"text":"   "},{text:"[自杀]",bold:true,"click_event":{action:"run_command",command:"trigger trigger set 7"},"hover_event":{"action":"show_text","value":"<脱离卡死>"},"color":red},{"text":"   "},{text:"[服务器种子]",color:"green",hover_event:{action:"show_text",value:"点击复制"},click_event:{action:"copy_to_clipboard",value:"1861731603229431126"}}]
 tellraw @s {text:"------------------------------------------",color:"red"}
 
-tellraw @s[team=ops] {text:"------------ACPack 管理便利面板--------------",color:"red"}
+tellraw @s[team=ops] {text:"------------ACPack 管理便利面板----------------",color:"red"}
+tellraw @s[team=ops] [{"text":"[开始巡查]","color":"green","hover_event":{"action":"show_text","value":{"text":"服务器将会自动记录你现在的坐标，以便你结束巡查时自动返回","color":"red"}},"click_event":{"action":"run_command","command":"trigger trigger set 21"}},{"text":"   "},{"text":"[结束巡查]","color":"green","hover_event":{"action":"show_text","value":{"text":"这将会使你被传送回原来的地方，辛苦啦","color":"green"}},"click_event":{"action":"run_command","command":"trigger trigger set 22"}}]
 tellraw @s[team=ops] {text:"请不要随意使用这些命令",color:red}
 tellraw @s[team=ops] {text:"particle_water",click_event:{action:"copy_to_clipboard",value:"/tag @s add particle_water"},hover_event:{action:"show_text",value:"复制指令到剪贴板"},color:green}
 tellraw @s[team=ops] {text:"particle_flame",click_event:{action:"copy_to_clipboard",value:"/tag @s add particle_flame"},hover_event:{action:"show_text",value:"复制指令到剪贴板"},color:green}
