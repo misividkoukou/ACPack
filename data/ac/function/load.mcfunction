@@ -23,6 +23,20 @@ scoreboard objectives add trigger.particle.int dummy
 scoreboard objectives remove trigger.particle
 scoreboard objectives add trigger.particle trigger
 
+#tp
+scoreboard objectives remove patrol
+scoreboard objectives add patrol dummy
+scoreboard players set @s patrol 0
+
+scoreboard objectives remove pos_x
+scoreboard objectives add pos_x dummy ""
+
+scoreboard objectives remove pos_y
+scoreboard objectives add pos_y dummy ""
+
+scoreboard objectives remove pos_z
+scoreboard objectives add pos_z dummy ""
+
 # 计分板显示模式: 0=关闭, 1=轮播, 2-7,9-35=固定项, 8=录屏
 scoreboard objectives add stats.display_mode dummy
 
