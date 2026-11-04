@@ -24,6 +24,7 @@ Made by AreoCraft Developers!
 ## 适配与维护情况
 
 当前适配：最低`26.3`，目标`26.3`.
+* 需要服务器数据包权限为3+
 
 维护者：AreoCraft技术开发组
 
