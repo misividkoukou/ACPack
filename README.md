@@ -1,6 +1,6 @@
 # ACPack
 
-![version](https://img.shields.io/badge/v1.0.8.3-success)
+![version](https://img.shields.io/badge/v1.0.8-success)
 ![mcver](https://img.shields.io/badge/minecraft-26.3-blue)
 
 [![License](https://img.shields.io/badge/LICENSE-MPL%202.0-blueviolet?style=for-the-badge)](https://www.mozilla.org/en-US/MPL/2.0/)
@@ -23,7 +23,7 @@ Made by AreoCraft Developers!
 
 ## 适配与维护情况
 
-当前适配：最低`1.21.9`，目标`26.3`.
+当前适配：最低`26.3`，目标`26.3`.
 
 维护者：AreoCraft技术开发组
 
